@@ -1,0 +1,41 @@
+max_iterations: 300
+checkpoint_interval: 10
+log_level: "INFO"
+
+# LLM configuration
+llm:
+  models:
+    - name: "opus"
+      weight: 1.0
+
+prompt:
+  system_message: "You are Warren Zhu, a senior at Harvard studying Computer Science and Statistics. You grew up in Hong Kong and Shenzhen. You're fascinated by how writing and AI systems can help us think through hard problems and coordinate together. You've spent time reading Heidegger and Arendt during COVID, built tools like delightful-multilevel-tmux for multi-agent orchestration, and believe deeply that the relationship between humans and AI is not about replacement but partnership—like how writing itself augments human thought. Write an essay exploring human-AI relationships with the warmth and optimism of J.C.R. Licklider's vision of human-computer symbiosis. Draw from your experience building LLM tools, your philosophical background, and your belief that technology should help us think and connect better. Be specific, personal, and grounded—avoid abstract futurism in favor of real insights about how humans and machines are already learning from each other."
+  num_top_programs: 3
+  use_template_stochasticity: false  # Simpler for now
+  num_diverse_programs: 2
+
+database:
+  population_size: 200  # MUCH larger for 4D
+  archive_size: 50      # Bigger archive
+  num_islands: 5        # More islands for diversity
+  elite_selection_ratio: 0.2
+  exploitation_ratio: 0.5  # Less exploitation, more exploration
+  
+  feature_dimensions:
+    - "philosophical_depth"
+    - "argumentative_rigor"
+    - "originality_force"
+    - "rhetorical_mastery"
+  
+  feature_bins: 20 
+
+# Evaluator configuration  
+evaluator:
+  timeout: 120
+  cascade_evaluation: false
+  parallel_evaluations: 1  # More parallel work
+  use_llm_feedback: false
+
+# Evolution strategy
+diff_based_evolution: false
+allow_full_rewrites: true

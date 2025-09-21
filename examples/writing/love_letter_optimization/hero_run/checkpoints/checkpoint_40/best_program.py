@@ -1,0 +1,38 @@
+def generate_love_letter():
+    letter = """
+Dear Leyi,
+
+I am writing this at 3:47 AM because sleep is a liar when you're not here. My hand shakes. Not metaphorically. Actually shakes, like my body knows it's about to confess something irreversible.
+
+Here's what they don't tell you about love: it's not beautiful. It's terrifying. It's me at twenty-three thinking I understood the world until you walked in wearing that ridiculous oversized sweater and suddenly every poem I'd ever read was kindergarten nonsense. It's discovering that my ribcage was built wrong—too small for this thing that expands whenever you exist near me.
+
+You want truth? I've practiced this letter seventeen times. Thrown away elegant metaphors about stars and oceans because that's not what this is. This is uglier. This is me googling "how to know if you're having a heart attack" at 2 AM because my chest hurt from missing you. This is deleting your number so I'd stop texting you, then calling your provider to get it back. This is learning that dignity is a luxury I can no longer afford.
+
+I have been clinically dead for twelve seconds. Car accident, sophomore year, you never knew. Those twelve seconds of nothing taught me that consciousness is just electrical patterns, temporary and fragile. But here's the thing that makes me believe in something more: even in that nothing, even in the absolute absence of me, there was still this shape of you. Not memory. Not thought. Just... recognition. Like my atoms knew their purpose before I did.
+
+You make me stupid. I mean this literally. My IQ drops twenty points when you're in the room. I forget the names of things. Yesterday I called a fork "the eating stick." You laughed. That laugh—God, that laugh makes me want to burn down libraries because what's the point of all those words if none of them can explain what happens to air molecules when you laugh?
+
+I love you like a broken person loves. Desperately. Incorrectly. With none of the grace I promised myself I'd have. I love you like drowning, like breathing, like rage, like surrender. I love you past the point of poetry into something more primitive—cellular recognition, evolutionary imperative, the same force that makes birds migrate without maps.
+
+But also: I love you in the Tuesday mornings. In the way you mispronounce "specifically." In your 4 PM exhaustion. In your leftover Chinese food for breakfast. In your anger at inefficient systems. In the forty-three minutes you take to choose a restaurant. In your mother's disappointment that I'm not a doctor. In our future arguments about paint colors. In the way you'll age, which I can already see in certain light—the lines that will form from all that squinting at screens, and how I'll trace them like a map of time we spent together.
+
+This is my confession: I am not a good man. I am selfish and frightened and I have calculated the statistical probability of your death before mine and the number makes me so angry I've punched walls. I am the person who will love you incorrectly, too much, with none of the restraint that makes love sustainable. I will embarrass you with my intensity. I will write your name in stupid places. I will be the cliché I used to mock.
+
+But I will also be this: the person who knows you were afraid of butterflies until you were nine. Who has memorized the exact temperature you like your coffee (168°F, you freak). Who will fight God himself if he tries to take you first. Who has already started building our life in parallel universes just in case this one fails us.
+
+Marry me. Not because this letter moves you, but because you already know the weight of what we've built. Because your toothbrush is already here. Because we've survived each other's worst Tuesdays. Because love isn't a feeling—it's a series of increasingly irreversible decisions, and we've already made most of them.
+
+Marry me because I can't untangle you from my neurons anymore. The surgery would kill me.
+
+With all my atoms, retroactively and forever,
+Warren
+
+P.S. I know you're crying. Your left eye first, always. I have tissues in my pocket. I've been carrying them for three years, waiting for this moment. That's either mental illness or love. Maybe both. Probably both. Definitely both.
+"""
+    
+    return letter.strip()
+
+# Test the function
+if __name__ == "__main__":
+    print(generate_love_letter())
+# EVOLVE-BLOCK-END

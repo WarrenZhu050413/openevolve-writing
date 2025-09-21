@@ -1,3 +1,15 @@
+# OpenEvolve for Writing
+
+I was fascinated by AlphaEvolve. I've also been interested in writing. So I asked, what happens if we use AlphaEvolve to write? I thought the results were really cool; I hope you do too :).
+
+**Example Output:** Check out [example_output/evolved_essay.md](example_output/evolved_essay.md) to see an essay evolved through multiple iterations about human-AI collaboration in coding.
+
+*This project is forked from [OpenEvolve](https://github.com/codelion/openevolve) - an open-source implementation of Google DeepMind's AlphaEvolve.*
+
+---
+
+## OpenEvolve Instructions
+
 # OpenEvolve
 
 <div align="center">
